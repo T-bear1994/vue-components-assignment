@@ -2,11 +2,11 @@
   <form @submit.prevent="submitData">
     <div>
       <label for="name">Name</label>
-      <input type="text" v-model="enteredName">
+      <input type="text" placeholder="Your name" v-model="enteredName">
     </div>
     <div>
       <label for="age">Age</label>
-      <input type="number" v-model="enteredAge">
+      <input type="number" placeholder="Your age" v-model="enteredAge">
     </div>
     <div>
       <button>Add User</button>

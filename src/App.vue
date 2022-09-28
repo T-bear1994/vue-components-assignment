@@ -33,7 +33,7 @@ export default {
     addUser(name, age) {
       const newUser = {
         username: name,
-        age: age
+        age: +age
       };
       this.users.push(newUser);
     }

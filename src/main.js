@@ -9,7 +9,7 @@ const app = createApp(App);
 app.component('active-user', ActiveUser);
 app.component('user-data', UserData);
 
-app.mount('#app')
+app.mount('#app');
 
 // Task 1:
 // Add two components to the app:
